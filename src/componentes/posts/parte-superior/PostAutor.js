@@ -3,7 +3,7 @@ export default function PostAutor(props) {
 
     return (
         <div className="post-logo">
-            <a href="#"><img src={logo} /> </a>
+            <a href="#"><img src={logo} alt={usuario} /> </a>
             <a href="#"><p>{usuario}</p></a>
         </div>
     );

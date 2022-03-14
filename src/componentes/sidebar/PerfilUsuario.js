@@ -3,7 +3,7 @@ export default function PerfilUsuario(props) {
 
     return (
         <div className="perfil">
-            <a href="#"><img src={imagem} /></a>
+            <a href="#"><img src={imagem} alt={usuario} /></a>
 
             <div className="perfil-identificao">
                 <a href="#"><p><strong>{usuario}</strong></p></a>

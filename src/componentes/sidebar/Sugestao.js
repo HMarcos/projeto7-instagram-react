@@ -4,7 +4,7 @@ export default function Sugestao(props) {
     return (
         <div class="sugestao">
             <div class="sugestao-perfil">
-                <a href="#"><img src={imagem} /></a>
+                <a href="#"><img src={imagem} alt={usuario} /></a>
 
                 <div class="sugestao-perfil-identificao">
                     <a href="#"><p><strong class="sugestoes-strong">{usuario}</strong></p></a>
