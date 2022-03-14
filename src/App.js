@@ -2,6 +2,8 @@ import BarraSuperior from "./componentes/barra-superior/BarraSuperior";
 import Stories from "./componentes/stories/Stories";
 import Posts from "./componentes/posts/Posts";
 import Sidebar from "./componentes/sidebar/Sidebar";
+import BarraInferior from "./componentes/barra-inferior/BarraInferior";
+
 export default function App(){
     return(
         <div>
@@ -13,6 +15,7 @@ export default function App(){
                 </main>
                 <Sidebar />
             </div>
+            <BarraInferior />
         </div>
     );
 }
