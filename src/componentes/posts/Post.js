@@ -6,10 +6,10 @@ export default function Post(props){
     const {imagemAutor, autor, imagemPost, imagemCurtida, usuarioCurtida, numeroCurtidas} = props;
 
     return(
-        <div className="post">
+        <article className="post">
             <PostParteSuperior logo={imagemAutor} usuario={autor} />
             <PostImagem imagem={imagemPost} />
             <PostParteInferior imagem={imagemCurtida} usuario={usuarioCurtida} numeroCurtidas={numeroCurtidas} />
-        </div>
+        </article>
     );
 }
