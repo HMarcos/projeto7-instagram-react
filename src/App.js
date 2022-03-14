@@ -1,7 +1,7 @@
 import BarraSuperior from "./componentes/barra-superior/BarraSuperior";
 import Stories from "./componentes/stories/Stories";
 import Posts from "./componentes/posts/Posts";
-
+import Sidebar from "./componentes/sidebar/Sidebar";
 export default function App(){
     return(
         <div>
@@ -11,7 +11,7 @@ export default function App(){
                     <Stories />
                     <Posts />
                 </main>
-
+                <Sidebar />
             </div>
         </div>
     );
