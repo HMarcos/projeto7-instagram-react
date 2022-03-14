@@ -116,7 +116,7 @@ a:visited{
 }
 
 /*Conteúdo da Página */
-.conteudo-pagina {
+.container {
     margin: 0 auto;
     margin-top: 88px;
 
@@ -167,7 +167,7 @@ a:visited{
 
 }
 
-#primeiro-story {
+.stories .story:first-child {
     margin-left: 18px;
 }
 
@@ -504,7 +504,7 @@ a:visited{
         display: none;
     }
 
-    .conteudo-pagina {
+    .container {
         width: 614px;
     }
 
@@ -564,7 +564,7 @@ a:visited{
     }
 
     /*Conteúdo da Página */
-    .conteudo-pagina {
+    .container {
         margin: 0 auto;
         margin-top: 54px;
 
